@@ -2,7 +2,7 @@
     "name": "browzer",
     "version": "0.0.1",
     "author": "Ionic Framework",
-    "homepage": "http://ionicframework.com/",
+    "homepage": "https://browzer-e4ab7.firebaseapp.com/",
     "private": true,
     "scripts": {
         "clean": "ionic-app-scripts clean",
