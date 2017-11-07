@@ -1,6 +1,7 @@
 import { ErrorHandler, NgModule } from '@angular/core';
 import { IonicApp, IonicErrorHandler, IonicModule } from 'ionic-angular';
 
+import { AgmCoreModule } from '@agm/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { HomePage } from '../pages/home/home';
 import { HttpClientModule } from '@angular/common/http';
@@ -18,6 +19,9 @@ import { StatusBar } from '@ionic-native/status-bar';
   imports: [
     BrowserModule,
     HttpClientModule,
+    AgmCoreModule.forRoot({
+      apiKey: 'AIzaSyCmdjknWLRtEDRpdjZnhCdPe12aMXMEjpw'
+    }),
     IonicModule.forRoot(MyApp),
   ],
   bootstrap: [IonicApp],
