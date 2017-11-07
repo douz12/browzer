@@ -1,3 +1,4 @@
+import { Camera } from '@ionic-native/camera';
 import { CameraPage } from './camera';
 import { IonicPageModule } from 'ionic-angular';
 import { NgModule } from '@angular/core';
@@ -11,6 +12,9 @@ import { NgModule } from '@angular/core';
   ],
   exports: [
     CameraPage
+  ],
+  providers: [
+    Camera
   ],
 })
 export class CameraPageModule {}
