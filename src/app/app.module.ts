@@ -4,7 +4,6 @@ import { IonicApp, IonicErrorHandler, IonicModule } from 'ionic-angular';
 import { AgmCoreModule } from '@agm/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { CameraPageModule } from '../pages/camera/camera.module';
-import { HomePage } from '../pages/home/home';
 import { HomePageModule } from '../pages/home/home.module';
 import { HttpClientModule } from '@angular/common/http';
 import { MyApp } from './app.component';
